@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "ca.NetSysLab.ProtocolBuffers";
+option java_outer_classname = "EpidemicPayload";
+
+message EpidemicPld {
+  fixed32 nodeID = 1;
+  fixed64 timestamp = 2;
+  double propagationProbability = 3;
+}

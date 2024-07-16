@@ -1,0 +1,221 @@
+Server Address: 3.135.81.131:2038
+Node 21 is dead!!!
+Maintaining Replicas for: Node 21 curTime: 1712637792086
+updateReplicaStateNodeLeave: Node 21 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+updateReplicaStateNodeLeave: replica Node 23 joined
+MaintainReplicas: Transferring replica data from bucket 19 to node 23
+MaintainReplicas: Bucket 19 has 1005 keys
+MaintainReplicas: Transferred 1005 keys from bucket 19 to node 23
+Node 0 is dead!!!
+Maintaining Replicas for: Node 0 curTime: 1712637792903
+updateReplicaStateNodeLeave: Node 0 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 5 is dead!!!
+Maintaining Replicas for: Node 5 curTime: 1712637793704
+updateReplicaStateNodeLeave: Node 5 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 15 is dead!!!
+Maintaining Replicas for: Node 15 curTime: 1712637793704
+updateReplicaStateNodeLeave: Node 15 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 33 is dead!!!
+Maintaining Replicas for: Node 33 curTime: 1712637835313
+updateReplicaStateNodeLeave: Node 33 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 2 is dead!!!
+Maintaining Replicas for: Node 2 curTime: 1712637836114
+updateReplicaStateNodeLeave: Node 2 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 27 is dead!!!
+Maintaining Replicas for: Node 27 curTime: 1712637836915
+updateReplicaStateNodeLeave: Node 27 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 8 is dead!!!
+Maintaining Replicas for: Node 8 curTime: 1712637837715
+updateReplicaStateNodeLeave: Node 8 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node identifies itself as a joining node!
+Node 12 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712638079713
+Node 13 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712638079714
+Node 16 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712638079714
+Node 17 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712638079714
+Node 13 joined!
+Node 17 joined!
+Node 21 joined!
+Node 15 joined!
+Node 0 joined!
+Node 16 joined!
+Node 33 joined!
+Node 2 joined!
+Node 8 joined!
+Node 5 joined!
+Node 27 joined!
+Node 12 joined!
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND

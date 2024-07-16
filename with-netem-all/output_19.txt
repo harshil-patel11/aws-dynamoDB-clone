@@ -1,0 +1,704 @@
+Server Address: 3.135.81.131:2038
+Node 32 is dead!!!
+Maintaining Replicas for: Node 32 curTime: 1712639468157
+updateReplicaStateNodeLeave: Node 32 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 32 joined!
+Node 8 is dead!!!
+Maintaining Replicas for: Node 8 curTime: 1712639539407
+updateReplicaStateNodeLeave: Node 8 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 9 is dead!!!
+Maintaining Replicas for: Node 9 curTime: 1712639541008
+updateReplicaStateNodeLeave: Node 9 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 30 is dead!!!
+Maintaining Replicas for: Node 30 curTime: 1712639541008
+updateReplicaStateNodeLeave: Node 30 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 9 joined!
+Node 30 joined!
+Node 16 is dead!!!
+Maintaining Replicas for: Node 16 curTime: 1712639549013
+updateReplicaStateNodeLeave: Node 16 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+REMOVE command
+REMOVE command
+KEY NOT FOUND
+Node 16 joined!
+REMOVE command
+REMOVE command
+KEY NOT FOUND
+Node 25 is dead!!!
+Maintaining Replicas for: Node 25 curTime: 1712639551414
+updateReplicaStateNodeLeave: Node 25 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 32 is dead!!!
+Maintaining Replicas for: Node 32 curTime: 1712639553815
+updateReplicaStateNodeLeave: Node 32 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 25 joined!
+Node 9 is dead!!!
+Maintaining Replicas for: Node 9 curTime: 1712639557017
+updateReplicaStateNodeLeave: Node 9 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 6 is dead!!!
+Maintaining Replicas for: Node 6 curTime: 1712639559418
+updateReplicaStateNodeLeave: Node 6 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 30 is dead!!!
+Maintaining Replicas for: Node 30 curTime: 1712639565820
+updateReplicaStateNodeLeave: Node 30 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 16 is dead!!!
+Maintaining Replicas for: Node 16 curTime: 1712639567422
+updateReplicaStateNodeLeave: Node 16 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 18 is dead!!!
+Maintaining Replicas for: Node 18 curTime: 1712639569022
+getNewlyOwnedNodes: Owned Node: 18
+Printing newly owned nodes
+Newly Owned Node: 18
+MaintainReplicas: Transferring replica data from bucket 18 to node 20
+MaintainReplicas: Transferring replica data from bucket 18 to node 22
+MaintainReplicas: Transferring replica data from bucket 18 to node 21
+MaintainReplicas: Bucket 18 has 9 keys
+MaintainReplicas: Bucket 18 has 9 keys
+MaintainReplicas: Bucket 18 has 9 keys
+MaintainReplicas: Transferred 9 keys from bucket 18 to node 21
+MaintainReplicas: Transferred 9 keys from bucket 18 to node 20
+MaintainReplicas: Transferred 9 keys from bucket 18 to node 22
+Node 25 is dead!!!
+Maintaining Replicas for: Node 25 curTime: 1712639569825
+updateReplicaStateNodeLeave: Node 25 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 18 Replica Length: 3
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 9 joined!
+Node 18 joined!
+TransferNodeData: Bucket IDs to transfer: 
+Replica node not owned for node 18 , no need to transfer data
+Bucket ID: 18
+TransferNodeData: Bucket 18 has 22 keys
+TransferNodeData: Transferred 22 keys from bucket 18 to node 18
+Node 6 joined!
+Node 18 is dead!!!
+Maintaining Replicas for: Node 18 curTime: 1712639598633
+getNewlyOwnedNodes: Owned Node: 18
+Printing newly owned nodes
+Newly Owned Node: 18
+MaintainReplicas: Transferring replica data from bucket 18 to node 20
+MaintainReplicas: Transferring replica data from bucket 18 to node 21
+MaintainReplicas: Transferring replica data from bucket 18 to node 22
+MaintainReplicas: Bucket 18 has 33 keys
+MaintainReplicas: Bucket 18 has 33 keys
+MaintainReplicas: Bucket 18 has 33 keys
+MaintainReplicas: Transferred 33 keys from bucket 18 to node 20
+MaintainReplicas: Transferred 33 keys from bucket 18 to node 22
+MaintainReplicas: Transferred 33 keys from bucket 18 to node 21
+Node 6 is dead!!!
+Maintaining Replicas for: Node 6 curTime: 1712639613837
+updateReplicaStateNodeLeave: Node 6 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 18 Replica Length: 3
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 18 joined!
+TransferNodeData: Bucket IDs to transfer: 
+Replica node not owned for node 18 , no need to transfer data
+Bucket ID: 18
+TransferNodeData: Bucket 18 has 45 keys
+TransferNodeData: Transferred 45 keys from bucket 18 to node 18
+Node 18 is dead!!!
+Maintaining Replicas for: Node 18 curTime: 1712639630642
+getNewlyOwnedNodes: Owned Node: 18
+Printing newly owned nodes
+Newly Owned Node: 18
+MaintainReplicas: Transferring replica data from bucket 18 to node 20
+MaintainReplicas: Transferring replica data from bucket 18 to node 21
+MaintainReplicas: Bucket 18 has 99 keys
+MaintainReplicas: Transferring replica data from bucket 18 to node 22
+MaintainReplicas: Bucket 18 has 99 keys
+MaintainReplicas: Bucket 18 has 99 keys
+MaintainReplicas: Transferred 99 keys from bucket 18 to node 20
+MaintainReplicas: Transferred 99 keys from bucket 18 to node 21
+MaintainReplicas: Transferred 99 keys from bucket 18 to node 22
+Node 25 joined!
+Node 30 joined!
+Node 16 joined!
+TransferNodeData: Bucket IDs to transfer: 
+Bucket ID: 16
+Replica node not owned for node 16 , no need to transfer data
+TransferNodeData: Bucket 16 has 108 keys
+TransferNodeData: Transferred 108 keys from bucket 16 to node 16
+Node 32 joined!
+Node 18 joined!
+TransferNodeData: Bucket IDs to transfer: 
+Replica node not owned for node 18 , no need to transfer data
+Bucket ID: 18
+TransferNodeData: Bucket 18 has 128 keys
+TransferNodeData: Transferred 128 keys from bucket 18 to node 18
+Node 8 joined!
+Node 6 joined!
+Node 6 is dead!!!
+Maintaining Replicas for: Node 6 curTime: 1712639666650
+updateReplicaStateNodeLeave: Node 6 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 6 joined!
+Node 16 is dead!!!
+Maintaining Replicas for: Node 16 curTime: 1712639673052
+updateReplicaStateNodeLeave: Node 16 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 16 joined!
+TransferNodeData: Bucket IDs to transfer: 
+Replica node not owned for node 16 , no need to transfer data
+Bucket ID: 16
+TransferNodeData: Bucket 16 has 655 keys
+TransferNodeData: Transferred 655 keys from bucket 16 to node 16
+Node 6 is dead!!!
+Maintaining Replicas for: Node 6 curTime: 1712639692256
+updateReplicaStateNodeLeave: Node 6 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 6 joined!
+Node 16 is dead!!!
+Maintaining Replicas for: Node 16 curTime: 1712639897909
+updateReplicaStateNodeLeave: Node 16 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 16 joined!
+TransferNodeData: Bucket IDs to transfer: 
+Bucket ID: 16
+Replica node not owned for node 16 , no need to transfer data
+TransferNodeData: Bucket 16 has 1019 keys
+TransferNodeData: Transferred 1019 keys from bucket 16 to node 16
+Node 30 is dead!!!
+Maintaining Replicas for: Node 30 curTime: 1712639912312
+updateReplicaStateNodeLeave: Node 30 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 30 joined!
+Node identifies itself as a joining node!
+Node 1 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239010
+Node 2 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 3 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 4 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 6 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 7 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 8 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 9 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 10 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 11 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 12 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 13 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 14 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 15 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 16 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 17 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 18 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 20 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 21 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239011
+Node 22 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 25 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 26 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 27 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 28 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 29 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 30 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 31 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 32 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 33 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 34 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 35 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 36 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 37 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 38 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 39 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712640239012
+Node 3 joined!
+Node 13 joined!
+Node 1 joined!
+Node 12 joined!
+Node 20 joined!
+Node 10 joined!
+Node 36 joined!
+Node 2 joined!
+Node 21 joined!
+Node 39 joined!
+Node 4 joined!
+Node 18 joined!
+Node 8 joined!
+Node 15 joined!
+Node 25 joined!
+Node 38 joined!
+Node 32 joined!
+Node 9 joined!
+Node 6 joined!
+Node 17 joined!
+Node 22 joined!
+Node 31 joined!
+Node 28 joined!
+Node 7 joined!
+Node 11 joined!
+Node 14 joined!
+Node 27 joined!
+Node 37 joined!
+Node 34 joined!
+Node 29 joined!
+Node 16 joined!
+Node 33 joined!
+Node 35 joined!
+Node 26 joined!
+Node 30 joined!
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+Node 5 is dead!!!
+Maintaining Replicas for: Node 5 curTime: 1712640631884
+updateReplicaStateNodeLeave: Node 5 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 39 is dead!!!
+Maintaining Replicas for: Node 39 curTime: 1712640632686
+updateReplicaStateNodeLeave: Node 39 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 24 is dead!!!
+Maintaining Replicas for: Node 24 curTime: 1712640634287
+updateReplicaStateNodeLeave: Node 24 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node identifies itself as a joining node!
+Node 0 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044240
+Node 1 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044240
+Node 2 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044240
+Node 3 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044240
+Node 4 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044240
+Node 6 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044240
+Node 2 joined!
+Node 4 joined!
+Node 9 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 11 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 14 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 15 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 17 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 18 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 26 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 30 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 31 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 32 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 37 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 38 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641044241
+Node 0 joined!
+Node 17 joined!
+Node 1 joined!
+Node 18 joined!
+Node 3 joined!
+Node 26 joined!
+Node 32 joined!
+Node 37 joined!
+Node 38 joined!
+Node 31 joined!
+Node 15 joined!
+Node 14 joined!
+Node 30 joined!
+Node 6 joined!
+Node 9 joined!
+Node 39 joined!
+Node 24 joined!
+Node 11 joined!
+Node 5 joined!
+Node 33 is dead!!!
+Maintaining Replicas for: Node 33 curTime: 1712641060244
+updateReplicaStateNodeLeave: Node 33 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+Node 33 joined!
+Node 32 is dead!!!
+Maintaining Replicas for: Node 32 curTime: 1712641184264
+updateReplicaStateNodeLeave: Node 32 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 34 is dead!!!
+Maintaining Replicas for: Node 34 curTime: 1712641185064
+updateReplicaStateNodeLeave: Node 34 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 14 is dead!!!
+Maintaining Replicas for: Node 14 curTime: 1712641185864
+updateReplicaStateNodeLeave: Node 14 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 14 joined!
+Node 32 joined!
+Node 34 joined!
+Node 28 is dead!!!
+Maintaining Replicas for: Node 28 curTime: 1712641221870
+updateReplicaStateNodeLeave: Node 28 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 39 is dead!!!
+Maintaining Replicas for: Node 39 curTime: 1712641221870
+updateReplicaStateNodeLeave: Node 39 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 9 is dead!!!
+Maintaining Replicas for: Node 9 curTime: 1712641222670
+updateReplicaStateNodeLeave: Node 9 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 39 joined!
+Node 28 joined!
+Node 9 joined!
+Node 27 is dead!!!
+Maintaining Replicas for: Node 27 curTime: 1712641261076
+updateReplicaStateNodeLeave: Node 27 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 22 is dead!!!
+Maintaining Replicas for: Node 22 curTime: 1712641261877
+updateReplicaStateNodeLeave: Node 22 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+updateReplicaStateNodeLeave: replica Node 23 joined
+MaintainReplicas: Transferring replica data from bucket 19 to node 23
+MaintainReplicas: Bucket 19 has 133 keys
+MaintainReplicas: Transferred 133 keys from bucket 19 to node 23
+Node 12 is dead!!!
+Maintaining Replicas for: Node 12 curTime: 1712641262681
+updateReplicaStateNodeLeave: Node 12 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 22 joined!
+TransferReplicaData: Transferring replica data from bucket 19 to node 22
+Node 12 joined!
+Node 27 joined!
+Node 20 is dead!!!
+Maintaining Replicas for: Node 20 curTime: 1712641298689
+updateReplicaStateNodeLeave: Node 20 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+updateReplicaStateNodeLeave: replica Node 23 joined
+Node 29 is dead!!!
+Maintaining Replicas for: Node 29 curTime: 1712641298690
+updateReplicaStateNodeLeave: Node 29 left
+updateReplicaStateNodeLeave: printing owned nodes
+MaintainReplicas: Transferring replica data from bucket 19 to node 23
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+MaintainReplicas: Bucket 19 has 133 keys
+MaintainReplicas: Transferred 133 keys from bucket 19 to node 23
+Node 18 is dead!!!
+Maintaining Replicas for: Node 18 curTime: 1712641300290
+getNewlyOwnedNodes: Owned Node: 18
+Printing newly owned nodes
+Newly Owned Node: 18
+MaintainReplicas: Transferring replica data from bucket 18 to node 21
+MaintainReplicas: Transferring replica data from bucket 18 to node 22
+MaintainReplicas: Bucket 18 has 120 keys
+MaintainReplicas: Transferring replica data from bucket 18 to node 23
+MaintainReplicas: Bucket 18 has 120 keys
+MaintainReplicas: Bucket 18 has 120 keys
+MaintainReplicas: Transferred 120 keys from bucket 18 to node 21
+MaintainReplicas: Transferred 120 keys from bucket 18 to node 23
+MaintainReplicas: Transferred 120 keys from bucket 18 to node 22
+Node 1 is dead!!!
+Maintaining Replicas for: Node 1 curTime: 1712641317894
+updateReplicaStateNodeLeave: Node 1 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 18 Replica Length: 3
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 6 is dead!!!
+Maintaining Replicas for: Node 6 curTime: 1712641318694
+updateReplicaStateNodeLeave: Node 6 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 18 Replica Length: 3
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+Node 23 is dead!!!
+Maintaining Replicas for: Node 23 curTime: 1712641320295
+updateReplicaStateNodeLeave: Node 23 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 18 Replica Length: 3
+updateReplicaStateNodeLeave: Owned Node: 19 Replica Length: 3
+updateReplicaStateNodeLeave: replica Node 24 joined
+MaintainReplicas: Transferring replica data from bucket 18 to node 24
+MaintainReplicas: Bucket 18 has 120 keys
+MaintainReplicas: Transferred 120 keys from bucket 18 to node 24
+MaintainReplicas: Transferring replica data from bucket 19 to node 24
+MaintainReplicas: Bucket 19 has 133 keys
+MaintainReplicas: Transferred 133 keys from bucket 19 to node 24
+Node 29 joined!
+Node 20 joined!
+TransferReplicaData: Transferring replica data from bucket 16 to node 20
+TransferReplicaData: Transferring replica data from bucket 17 to node 20
+TransferReplicaData: Transferring replica data from bucket 18 to node 20
+TransferReplicaData: Transferring replica data from bucket 19 to node 20
+Node 18 joined!
+TransferNodeData: Bucket IDs to transfer: 
+Replica node not owned for node 18 , no need to transfer data
+Bucket ID: 18
+TransferNodeData: Bucket 18 has 120 keys
+TransferNodeData: Transferred 120 keys from bucket 18 to node 18
+Node identifies itself as a joining node!
+Node 30 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641375534
+Node 35 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641375534
+Node 36 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641375534
+Node 38 is dead!!!
+Cannot run MaintainReplicas. Node 19 came back alive. curTime: 1712641375534
+Node 36 joined!
+Node 35 joined!
+Node 6 joined!
+Node 30 joined!
+Node 38 joined!
+Node 1 joined!
+Node 23 joined!

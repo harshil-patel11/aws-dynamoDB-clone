@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "ca.NetSysLab.ProtocolBuffers";
+option java_outer_classname = "KeyValueTransfer";
+
+message KVTransfer {
+  uint32 command = 1;
+  optional bytes key = 2;
+  optional bytes value = 3;
+  optional int32 version = 4;
+  optional int64 lpClock = 5;
+  optional bool isRemoved = 6;
+  optional int32 wipeoutBucketId = 7;
+}

@@ -1,0 +1,116 @@
+Server Address: 3.135.81.131:2000
+Node identifies itself as a joining node!
+Node 1 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078923
+Node 2 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078928
+Node 3 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078928
+Node 4 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078928
+Node 5 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078928
+Node 6 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078928
+Node 7 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078928
+Node 8 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078928
+Node 9 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078928
+Node 10 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 11 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 12 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 13 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 15 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 16 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 17 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 18 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 19 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 20 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 21 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 22 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 24 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 25 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 26 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 27 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 29 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 30 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 31 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 32 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078929
+Node 33 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078930
+Node 34 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078930
+Node 35 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078930
+Node 36 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078930
+Node 37 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078930
+Node 38 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078930
+Node 39 is dead!!!
+Cannot run MaintainReplicas. Node 0 came back alive. curTime: 1712638078930
+Node 13 joined!
+Node 3 joined!
+Node 34 joined!
+Node 39 joined!
+Node 29 joined!
+Node 35 joined!
+Node 27 joined!
+Node 5 joined!
+Node 20 joined!
+Node 22 joined!
+Node 9 joined!
+Node 18 joined!
+Node 25 joined!
+Node 37 joined!
+Node 7 joined!
+Node 8 joined!
+Node 32 joined!
+Node 10 joined!
+Node 19 joined!
+Node 30 joined!
+Node 31 joined!
+Node 4 joined!
+Node 17 joined!
+Node 16 joined!
+Node 36 joined!
+Node 1 joined!
+Node 11 joined!
+Node 2 joined!
+Node 33 joined!
+Node 38 joined!
+Node 26 joined!
+Node 24 joined!
+Node 15 joined!
+Node 6 joined!
+Node 21 joined!
+Node 12 joined!
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND

@@ -1,0 +1,1093 @@
+CPEN 431 EVALUATION Client
+Assignment ID: 11
+Client Version: 2
+Current Time: Tue Apr 09 04:41:10 UTC 2024
+Build Time: Wed Apr 03 21:58:12 UTC 2024
+Process ID: 3571
+OS Version: Linux 6.5.0-1016-aws amd64
+JVM Version: Private Build OpenJDK 64-Bit Server VM 21.0.2+13-Ubuntu-122.04.1
+Mode: TEST
+Secret Code: 3655741786
+Process Command: java -jar a11_2024_eval_tests_v2.1.jar --servers-list=server.txt --secret-code 3655741786 --only-suspend-rejoin
+
+[Info] Starting Node Suspend/Rejoin Tests
+
+[Info] Done building nodes' list.
+
+[Info] The deployment has 40 server nodes.
+
+[Info] Checking SSH connectivity to deployed servers ...
+Hosts to check: 3.135.81.131
+Checking SSH access to 3.135.81.131
+[Info] All SSH checks passed!
+
+
+Sending GETPID to all servers... 
+[Info] Server node 3.135.81.131:2000 has process ID 1632.
+[Info] Server node 3.135.81.131:2002 has process ID 1633.
+[Info] Server node 3.135.81.131:2004 has process ID 1634.
+[Info] Server node 3.135.81.131:2006 has process ID 1635.
+[Info] Server node 3.135.81.131:2008 has process ID 1636.
+[Info] Server node 3.135.81.131:2010 has process ID 1637.
+[Info] Server node 3.135.81.131:2012 has process ID 1638.
+[Info] Server node 3.135.81.131:2014 has process ID 1639.
+[Info] Server node 3.135.81.131:2016 has process ID 1640.
+[Info] Server node 3.135.81.131:2018 has process ID 1641.
+[Info] Server node 3.135.81.131:2020 has process ID 1642.
+[Info] Server node 3.135.81.131:2022 has process ID 1643.
+[Info] Server node 3.135.81.131:2024 has process ID 1644.
+[Info] Server node 3.135.81.131:2026 has process ID 1645.
+[Info] Server node 3.135.81.131:2028 has process ID 1646.
+[Info] Server node 3.135.81.131:2030 has process ID 1647.
+[Info] Server node 3.135.81.131:2032 has process ID 1648.
+[Info] Server node 3.135.81.131:2034 has process ID 1649.
+[Info] Server node 3.135.81.131:2036 has process ID 1650.
+[Info] Server node 3.135.81.131:2038 has process ID 1651.
+[Info] Server node 3.135.81.131:2040 has process ID 1652.
+[Info] Server node 3.135.81.131:2042 has process ID 1653.
+[Info] Server node 3.135.81.131:2044 has process ID 1654.
+[Info] Server node 3.135.81.131:2046 has process ID 1655.
+[Info] Server node 3.135.81.131:2048 has process ID 1656.
+[Info] Server node 3.135.81.131:2050 has process ID 1657.
+[Info] Server node 3.135.81.131:2052 has process ID 1658.
+[Info] Server node 3.135.81.131:2054 has process ID 1659.
+[Info] Server node 3.135.81.131:2056 has process ID 1660.
+[Info] Server node 3.135.81.131:2058 has process ID 1661.
+[Info] Server node 3.135.81.131:2060 has process ID 1662.
+[Info] Server node 3.135.81.131:2062 has process ID 1663.
+[Info] Server node 3.135.81.131:2064 has process ID 1664.
+[Info] Server node 3.135.81.131:2066 has process ID 1665.
+[Info] Server node 3.135.81.131:2068 has process ID 1666.
+[Info] Server node 3.135.81.131:2070 has process ID 1667.
+[Info] Server node 3.135.81.131:2072 has process ID 1668.
+[Info] Server node 3.135.81.131:2074 has process ID 1669.
+[Info] Server node 3.135.81.131:2076 has process ID 1670.
+[Info] Server node 3.135.81.131:2078 has process ID 1671.
+[ ... Completed in 0.085 seconds ]
+[OK]
+
+Sending GetMembershipCount to all servers... 
+[Info] Server 3.135.81.131:2018 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2016 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2026 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2002 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2078 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2010 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2008 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2006 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2014 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2000 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2076 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2004 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2024 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2012 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2020 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2022 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2028 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2050 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2070 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2072 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2042 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2052 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2038 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2056 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2046 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2062 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2032 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2064 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2066 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2074 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2034 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2058 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2036 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2048 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2040 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2030 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2060 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2044 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2068 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2054 replied with membership count = 40 (expected count = 40)
+[ ... Completed in 0.018 seconds ]
+[Ok] All servers returned the expected membership count (40)
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.043 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+[Test isAlive] for 3.135.81.131:2000
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.024 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST Basic PUT/GET (PUT -> GET). Value Length = 8 Bytes ]
+TEST_PASSED
+
+[ TEST Basic PUT/GET (PUT -> GET). Value Length = 32 Bytes ]
+TEST_PASSED
+
+[ TEST Basic PUT/GET (PUT -> GET). Value Length = 512 Bytes ]
+TEST_PASSED
+
+[ TEST Basic PUT/GET (PUT -> GET). Value Length = 1024 Bytes ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.015 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+
+[ TEST Basic KVS with message version (PUT Version 1 -> GET -> PUT Version 2 -> GET). Value Length = 8 Bytes ]
+TEST_PASSED
+
+
+[ TEST Basic KVS with message version (PUT Version 1 -> GET -> PUT Version 2 -> GET). Value Length = 32 Bytes ]
+TEST_PASSED
+
+
+[ TEST Basic KVS with message version (PUT Version 1 -> GET -> PUT Version 2 -> GET). Value Length = 512 Bytes ]
+TEST_PASSED
+
+
+[ TEST Basic KVS with message version (PUT Version 1 -> GET -> PUT Version 2 -> GET). Value Length = 1024 Bytes ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.014 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST Basic REMOVE (PUT -> GET -> REM -> GET). Value Length = 32 Bytes. ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.015 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST Double remove (PUT -> REM -> REM). Value Length = 32 Bytes. ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.017 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST Invalid Command. ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.014 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST At-Most-Once Client Policy (PUT -> REM -> REM). Value length =  32 Bytes ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.013 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST At-Most-Once Client Policy Empty REMs (EMPTY -> REM -> REM) ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.013 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST At-Most-Once Client Policy (PUT -> REM -> many PUT -> REM). Value length =  32 Bytes ]
+Pausing for 10 seconds to wait for the cache to be cleared!
+TEST_PASSED
+
+[ TEST At-Most-Once Client Policy Error Return Code (REM -> PUT -> REM) ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.015 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST At-Most-Once Client Policy For PUTs (PUT1 -> PUT2 -> PUT1 -> GET2) ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.019 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[TEST Invalid Key ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.014 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[TEST Invalid Value ]
+TEST_PASSED
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.015 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST Multi Client Crash: PUT -> GET (closed loop) + REM -> WIPEOUT (closed loop) ]
+[Test isAlive]
+Test Passed. Server is ok.
+TEST_PASSED
+[ ... TEST Completed in 76.658 seconds ]
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.018 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST Random Front-End Basic (PUT -> GET -> REM -> REM -> GET). Value Length = 8 Bytes ]
+TEST_PASSED
+
+[ TEST Random Front-End Basic (PUT -> GET -> REM -> REM -> GET). Value Length = 32 Bytes ]
+TEST_PASSED
+
+[ TEST Random Front-End Basic (PUT -> GET -> REM -> REM -> GET). Value Length = 512 Bytes ]
+TEST_PASSED
+
+[ TEST Random Front-End Basic (PUT -> GET -> REM -> REM -> GET). Value Length = 1024 Bytes ]
+TEST_PASSED
+[ ... TEST Completed in 0.044 seconds ]
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.014 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST Concurrent Store/Load v2; Stage 0; (Clients = 64, Limit = 40000 PUTs) ]
+Issuing PUTS ... 
+[DONE in 1.345s]
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; Of 40000 stored keys: 40000 SUCCESS, 0 TIMEOUT, 0 KEY-NOT-FOUND, 0 ERROR-UID, 0 ERROR-INVALID-GET (value or version), 0 ERROR-OTHER.
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; Expected Key Loss: 0.0%. Actual Key Loss: 0.0%
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; Total Value Size (MiB): 19.095609664916992 MiB.
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; SUCCESS Response Count: 40000.0.
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; % SUCCESS: 100.0%.
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; % FAILED (Not SUCCESS): 0.0%.
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; % TIMEOUT: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; % KEY-NOT-FOUND: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; % ERROR-UID: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; % ERROR-INVALID-GET (value or version): 0.0%.
+[Info] Concurrent Store/Load v2; Stage 0; PUT Phase; % ERROR-OTHER: 0.0%.
+[Info] PUTs % SUCCESS Ok: 100.0% Success.(90.0% minimum required).
+Confirming keys were stored correctly.
+Issuing GETs ... 
+[DONE in 0.433s]
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; Of 40000 stored keys: 40000 SUCCESS, 0 TIMEOUT, 0 KEY-NOT-FOUND, 0 ERROR-UID, 0 ERROR-INVALID-GET (value or version), 0 ERROR-OTHER.
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; Expected Key Loss: 0.0%. Actual Key Loss: 0.0%
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; Total Value Size (MiB): 19.095609664916992 MiB.
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; SUCCESS Response Count: 40000.0.
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; % SUCCESS: 100.0%.
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; % FAILED (Not SUCCESS): 0.0%.
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; % TIMEOUT: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; % KEY-NOT-FOUND: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; % ERROR-UID: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; % ERROR-INVALID-GET (value or version): 0.0%.
+[Info] Concurrent Store/Load v2; Stage 0; GET Phase; % ERROR-OTHER: 0.0%.
+[Info] GETs % SUCCESS Ok: 100.0% Success.(90.0% minimum required).
+Checking that 40 nodes are alive
+[Test isAlive] for 3.135.81.131:2000
+[Test isAlive] for 3.135.81.131:2004
+[Test isAlive] for 3.135.81.131:2002
+[Test isAlive] for 3.135.81.131:2008
+[Test isAlive] for 3.135.81.131:2014
+[Test isAlive] for 3.135.81.131:2012
+[Test isAlive] for 3.135.81.131:2006
+[Test isAlive] for 3.135.81.131:2010
+[Test isAlive] for 3.135.81.131:2016
+[Test isAlive] for 3.135.81.131:2018
+[Test isAlive] for 3.135.81.131:2020
+[Test isAlive] for 3.135.81.131:2022
+[Test isAlive] for 3.135.81.131:2024
+[Test isAlive] for 3.135.81.131:2026
+[Test isAlive] for 3.135.81.131:2028
+[Test isAlive] for 3.135.81.131:2030
+[Test isAlive] for 3.135.81.131:2032
+[Test isAlive] for 3.135.81.131:2034
+[Test isAlive] for 3.135.81.131:2036
+[Test isAlive] for 3.135.81.131:2038
+[Test isAlive] for 3.135.81.131:2040
+[Test isAlive] for 3.135.81.131:2042
+[Test isAlive] for 3.135.81.131:2044
+[Test isAlive] for 3.135.81.131:2046
+[Test isAlive] for 3.135.81.131:2048
+[Test isAlive] for 3.135.81.131:2052
+[Test isAlive] for 3.135.81.131:2050
+[Test isAlive] for 3.135.81.131:2054
+[Test isAlive] for 3.135.81.131:2056
+[Test isAlive] for 3.135.81.131:2058
+[Test isAlive] for 3.135.81.131:2060
+[Test isAlive] for 3.135.81.131:2062
+[Test isAlive] for 3.135.81.131:2064
+[Test isAlive] for 3.135.81.131:2066
+[Test isAlive] for 3.135.81.131:2070
+[Test isAlive] for 3.135.81.131:2068
+[Test isAlive] for 3.135.81.131:2074
+[Test isAlive] for 3.135.81.131:2072
+[Test isAlive] for 3.135.81.131:2076
+[Test isAlive] for 3.135.81.131:2078
+[ ... Completed in 0.005 seconds ]
+TEST_PASSED
+[ ... TEST Completed in 1.796 seconds ]
+
+[Info] Preparing for Stage 1 of the Suspend Test
+[Info] To suspend 28 node(s) in Stage 1.
+[Info] Will suspend 3.135.81.131:2000
+[Info] Will suspend 3.135.81.131:2010
+[Info] Will suspend 3.135.81.131:2030
+[Info] Will suspend 3.135.81.131:2042
+[Info] Will keep alive 3.135.81.131:2040
+[Info] Will keep alive 3.135.81.131:2060
+[Info] Will keep alive 3.135.81.131:2002
+[Info] Will keep alive 3.135.81.131:2036
+[Info] Will keep alive 3.135.81.131:2054
+[Info] Will keep alive 3.135.81.131:2066
+[Info] Will keep alive 3.135.81.131:2016
+[Info] Will keep alive 3.135.81.131:2004
+[Info] Will keep alive 3.135.81.131:2028
+[Info] Will keep alive 3.135.81.131:2046
+[Info] Will keep alive 3.135.81.131:2078
+[Info] Will keep alive 3.135.81.131:2062
+[Info] Will keep alive 3.135.81.131:2026
+[Info] Will keep alive 3.135.81.131:2024
+[Info] Will keep alive 3.135.81.131:2052
+[Info] Will keep alive 3.135.81.131:2038
+[Info] Will keep alive 3.135.81.131:2020
+[Info] Will keep alive 3.135.81.131:2008
+[Info] Will keep alive 3.135.81.131:2072
+[Info] Will keep alive 3.135.81.131:2014
+[Info] Will keep alive 3.135.81.131:2058
+[Info] Will keep alive 3.135.81.131:2076
+[Info] Will keep alive 3.135.81.131:2034
+[Info] Will keep alive 3.135.81.131:2050
+[Info] Will keep alive 3.135.81.131:2006
+[Info] Will keep alive 3.135.81.131:2048
+[Info] Will keep alive 3.135.81.131:2064
+[Info] Will keep alive 3.135.81.131:2032
+[Info] Will keep alive 3.135.81.131:2056
+[Info] Will keep alive 3.135.81.131:2018
+[Info] Will keep alive 3.135.81.131:2070
+[Info] Will keep alive 3.135.81.131:2022
+[Info] Will keep alive 3.135.81.131:2074
+[Info] Will keep alive 3.135.81.131:2012
+[Info] Will keep alive 3.135.81.131:2068
+[Info] Will keep alive 3.135.81.131:2044
+Waiting 10 seconds before suspending nodes
+[Info] Suspending 4 servers.
+Server 3.135.81.131:2042 suspended
+Server 3.135.81.131:2000 suspended
+Server 3.135.81.131:2030 suspended
+Server 3.135.81.131:2010 suspended
+[ ... Completed in 3.681 seconds ]
+Waiting 30 seconds after suspending nodes
+[Info] Stage 1 Scenario: Alive Nodes: 36. Dead Nodes: 4
+[Info] Will suspend 3.135.81.131:2054
+[Info] Will suspend 3.135.81.131:2066
+[Info] Will suspend 3.135.81.131:2016
+[Info] Will suspend 3.135.81.131:2004
+[Info] Will keep alive 3.135.81.131:2028
+[Info] Will keep alive 3.135.81.131:2046
+[Info] Will keep alive 3.135.81.131:2078
+[Info] Will keep alive 3.135.81.131:2062
+[Info] Will keep alive 3.135.81.131:2026
+[Info] Will keep alive 3.135.81.131:2024
+[Info] Will keep alive 3.135.81.131:2052
+[Info] Will keep alive 3.135.81.131:2038
+[Info] Will keep alive 3.135.81.131:2020
+[Info] Will keep alive 3.135.81.131:2008
+[Info] Will keep alive 3.135.81.131:2072
+[Info] Will keep alive 3.135.81.131:2014
+[Info] Will keep alive 3.135.81.131:2058
+[Info] Will keep alive 3.135.81.131:2076
+[Info] Will keep alive 3.135.81.131:2034
+[Info] Will keep alive 3.135.81.131:2050
+[Info] Will keep alive 3.135.81.131:2006
+[Info] Will keep alive 3.135.81.131:2048
+[Info] Will keep alive 3.135.81.131:2064
+[Info] Will keep alive 3.135.81.131:2032
+[Info] Will keep alive 3.135.81.131:2056
+[Info] Will keep alive 3.135.81.131:2018
+[Info] Will keep alive 3.135.81.131:2070
+[Info] Will keep alive 3.135.81.131:2022
+[Info] Will keep alive 3.135.81.131:2074
+[Info] Will keep alive 3.135.81.131:2012
+[Info] Will keep alive 3.135.81.131:2068
+[Info] Will keep alive 3.135.81.131:2044
+Waiting 10 seconds before suspending nodes
+[Info] Suspending 4 servers.
+Server 3.135.81.131:2066 suspended
+Server 3.135.81.131:2004 suspended
+Server 3.135.81.131:2054 suspended
+Server 3.135.81.131:2016 suspended
+[ ... Completed in 3.392 seconds ]
+Waiting 30 seconds after suspending nodes
+[Info] Stage 1 Scenario: Alive Nodes: 32. Dead Nodes: 8
+[Info] Will suspend 3.135.81.131:2026
+[Info] Will suspend 3.135.81.131:2024
+[Info] Will suspend 3.135.81.131:2052
+[Info] Will suspend 3.135.81.131:2038
+[Info] Will keep alive 3.135.81.131:2020
+[Info] Will keep alive 3.135.81.131:2008
+[Info] Will keep alive 3.135.81.131:2072
+[Info] Will keep alive 3.135.81.131:2014
+[Info] Will keep alive 3.135.81.131:2058
+[Info] Will keep alive 3.135.81.131:2076
+[Info] Will keep alive 3.135.81.131:2034
+[Info] Will keep alive 3.135.81.131:2050
+[Info] Will keep alive 3.135.81.131:2006
+[Info] Will keep alive 3.135.81.131:2048
+[Info] Will keep alive 3.135.81.131:2064
+[Info] Will keep alive 3.135.81.131:2032
+[Info] Will keep alive 3.135.81.131:2056
+[Info] Will keep alive 3.135.81.131:2018
+[Info] Will keep alive 3.135.81.131:2070
+[Info] Will keep alive 3.135.81.131:2022
+[Info] Will keep alive 3.135.81.131:2074
+[Info] Will keep alive 3.135.81.131:2012
+[Info] Will keep alive 3.135.81.131:2068
+[Info] Will keep alive 3.135.81.131:2044
+Waiting 10 seconds before suspending nodes
+[Info] Suspending 4 servers.
+Server 3.135.81.131:2024 suspended
+Server 3.135.81.131:2038 suspended
+Server 3.135.81.131:2052 suspended
+Server 3.135.81.131:2026 suspended
+[ ... Completed in 3.669 seconds ]
+Waiting 30 seconds after suspending nodes
+[Info] Stage 1 Scenario: Alive Nodes: 28. Dead Nodes: 12
+[Info] Will suspend 3.135.81.131:2058
+[Info] Will suspend 3.135.81.131:2076
+[Info] Will suspend 3.135.81.131:2034
+[Info] Will suspend 3.135.81.131:2050
+[Info] Will keep alive 3.135.81.131:2006
+[Info] Will keep alive 3.135.81.131:2048
+[Info] Will keep alive 3.135.81.131:2064
+[Info] Will keep alive 3.135.81.131:2032
+[Info] Will keep alive 3.135.81.131:2056
+[Info] Will keep alive 3.135.81.131:2018
+[Info] Will keep alive 3.135.81.131:2070
+[Info] Will keep alive 3.135.81.131:2022
+[Info] Will keep alive 3.135.81.131:2074
+[Info] Will keep alive 3.135.81.131:2012
+[Info] Will keep alive 3.135.81.131:2068
+[Info] Will keep alive 3.135.81.131:2044
+Waiting 10 seconds before suspending nodes
+[Info] Suspending 4 servers.
+Server 3.135.81.131:2058 suspended
+Server 3.135.81.131:2076 suspended
+Server 3.135.81.131:2034 suspended
+Server 3.135.81.131:2050 suspended
+[ ... Completed in 3.407 seconds ]
+Waiting 30 seconds after suspending nodes
+[Info] Stage 1 Scenario: Alive Nodes: 24. Dead Nodes: 16
+[Info] Will suspend 3.135.81.131:2056
+[Info] Will suspend 3.135.81.131:2018
+[Info] Will suspend 3.135.81.131:2070
+[Info] Will suspend 3.135.81.131:2022
+[Info] Will keep alive 3.135.81.131:2074
+[Info] Will keep alive 3.135.81.131:2012
+[Info] Will keep alive 3.135.81.131:2068
+[Info] Will keep alive 3.135.81.131:2044
+Waiting 10 seconds before suspending nodes
+[Info] Suspending 4 servers.
+Server 3.135.81.131:2018 suspended
+Server 3.135.81.131:2056 suspended
+Server 3.135.81.131:2070 suspended
+Server 3.135.81.131:2022 suspended
+[ ... Completed in 3.668 seconds ]
+Waiting 30 seconds after suspending nodes
+[Info] Stage 1 Scenario: Alive Nodes: 20. Dead Nodes: 20
+[Info] No nodes to suspend.
+Waiting 30 seconds after suspending nodes
+[Info] Stage 1 Scenario: Alive Nodes: 20. Dead Nodes: 20
+[Info] No nodes to suspend.
+Waiting 30 seconds after suspending nodes
+[Info] Stage 1 Scenario: Alive Nodes: 20. Dead Nodes: 20
+
+
+[ TEST Suspend Verify v2; Stage 1; Key Recovery; ]
+Checking that 20 nodes are suspended
+[Test isAlive] for 3.135.81.131:2000
+[Test isAlive] for 3.135.81.131:2010
+[Test isAlive] for 3.135.81.131:2030
+[Test isAlive] for 3.135.81.131:2042
+[Test isAlive] for 3.135.81.131:2054
+[Test isAlive] for 3.135.81.131:2066
+[Test isAlive] for 3.135.81.131:2016
+[Test isAlive] for 3.135.81.131:2004
+[Test isAlive] for 3.135.81.131:2026
+[Test isAlive] for 3.135.81.131:2024
+[Test isAlive] for 3.135.81.131:2052
+[Test isAlive] for 3.135.81.131:2038
+[Test isAlive] for 3.135.81.131:2058
+[Test isAlive] for 3.135.81.131:2076
+[Test isAlive] for 3.135.81.131:2034
+[Test isAlive] for 3.135.81.131:2050
+[Test isAlive] for 3.135.81.131:2056
+[Test isAlive] for 3.135.81.131:2018
+[Test isAlive] for 3.135.81.131:2070
+[Test isAlive] for 3.135.81.131:2022
+[ ... Completed in 10.025 seconds ]
+Checking that 20 nodes are alive
+[Test isAlive] for 3.135.81.131:2040
+[Test isAlive] for 3.135.81.131:2060
+[Test isAlive] for 3.135.81.131:2002
+[Test isAlive] for 3.135.81.131:2036
+[Test isAlive] for 3.135.81.131:2028
+[Test isAlive] for 3.135.81.131:2046
+[Test isAlive] for 3.135.81.131:2078
+[Test isAlive] for 3.135.81.131:2062
+[Test isAlive] for 3.135.81.131:2020
+[Test isAlive] for 3.135.81.131:2008
+[Test isAlive] for 3.135.81.131:2072
+[Test isAlive] for 3.135.81.131:2014
+[Test isAlive] for 3.135.81.131:2006
+[Test isAlive] for 3.135.81.131:2048
+[Test isAlive] for 3.135.81.131:2064
+[Test isAlive] for 3.135.81.131:2032
+[Test isAlive] for 3.135.81.131:2074
+[Test isAlive] for 3.135.81.131:2012
+[Test isAlive] for 3.135.81.131:2068
+[Test isAlive] for 3.135.81.131:2044
+[ ... Completed in 0.004 seconds ]
+Sending GetMembershipCount to all servers... 
+[Info] Server 3.135.81.131:2040 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2002 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2036 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2060 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2028 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2046 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2020 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2062 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2078 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2008 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2014 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2072 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2006 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2032 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2048 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2064 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2074 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2012 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2044 replied with membership count = 20 (expected count = 20)
+[Info] Server 3.135.81.131:2068 replied with membership count = 20 (expected count = 20)
+[ ... Completed in 0.004 seconds ]
+[Ok] All servers returned the expected membership count (20)
+Attempting retrieval of keys... 
+Issuing GETs ... 
+[DONE in 0.397s]
+[Info] Suspend Verify v2; Stage 1; Key Recovery; Of 40000 stored keys: 39174 SUCCESS, 0 TIMEOUT, 826 KEY-NOT-FOUND, 0 ERROR-UID, 0 ERROR-INVALID-GET (value or version), 0 ERROR-OTHER.
+[Info] Suspend Verify v2; Stage 1; Key Recovery; Expected Key Loss: 50.0%. Actual Key Loss: 2.065%
+[Info] Suspend Verify v2; Stage 1; Key Recovery; Total Value Size (MiB): 18.707772254943848 MiB.
+[Info] Suspend Verify v2; Stage 1; Key Recovery; SUCCESS Response Count: 39174.0.
+[Info] Suspend Verify v2; Stage 1; Key Recovery; % SUCCESS: 97.935%.
+[Info] Suspend Verify v2; Stage 1; Key Recovery; % FAILED (Not SUCCESS): 2.065%.
+[Info] Suspend Verify v2; Stage 1; Key Recovery; % TIMEOUT: 0.0%.
+[Info] Suspend Verify v2; Stage 1; Key Recovery; % KEY-NOT-FOUND: 2.065%.
+[Info] Suspend Verify v2; Stage 1; Key Recovery; % ERROR-UID: 0.0%.
+[Info] Suspend Verify v2; Stage 1; Key Recovery; % ERROR-INVALID-GET (value or version): 0.0%.
+[Info] Suspend Verify v2; Stage 1; Key Recovery; % ERROR-OTHER: 0.0%.
+[Info] Minimum GET SUCCESS % Ok: 97.935% Success.(50.0% SUCCESS expected, 25.0% minimum required).
+TEST_PASSED
+[ ... TEST Completed in 10.433 seconds ]
+
+[Info] Preparing for Stage 2a of the Suspend/Resume Test
+[Info] Stage 2a Scenario: Alive Nodes: 20. Dead Nodes: 20
+
+[ TEST Concurrent Store/Load v2; Stage 2a; (Clients = 64, Limit = 20000 PUTs) ]
+Issuing PUTS ... 
+[DONE in 0.297s]
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; Of 20000 stored keys: 20000 SUCCESS, 0 TIMEOUT, 0 KEY-NOT-FOUND, 0 ERROR-UID, 0 ERROR-INVALID-GET (value or version), 0 ERROR-OTHER.
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; Expected Key Loss: 0.0%. Actual Key Loss: 0.0%
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; Total Value Size (MiB): 9.53866195678711 MiB.
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; SUCCESS Response Count: 20000.0.
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; % SUCCESS: 100.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; % FAILED (Not SUCCESS): 0.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; % TIMEOUT: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; % KEY-NOT-FOUND: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; % ERROR-UID: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; % ERROR-INVALID-GET (value or version): 0.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; PUT Phase; % ERROR-OTHER: 0.0%.
+[Info] PUTs % SUCCESS Ok: 100.0% Success.(90.0% minimum required).
+Confirming keys were stored correctly.
+Issuing GETs ... 
+[DONE in 0.195s]
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; Of 20000 stored keys: 20000 SUCCESS, 0 TIMEOUT, 0 KEY-NOT-FOUND, 0 ERROR-UID, 0 ERROR-INVALID-GET (value or version), 0 ERROR-OTHER.
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; Expected Key Loss: 0.0%. Actual Key Loss: 0.0%
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; Total Value Size (MiB): 9.53866195678711 MiB.
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; SUCCESS Response Count: 20000.0.
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; % SUCCESS: 100.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; % FAILED (Not SUCCESS): 0.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; % TIMEOUT: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; % KEY-NOT-FOUND: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; % ERROR-UID: 0.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; % ERROR-INVALID-GET (value or version): 0.0%.
+[Info] Concurrent Store/Load v2; Stage 2a; GET Phase; % ERROR-OTHER: 0.0%.
+[Info] GETs % SUCCESS Ok: 100.0% Success.(90.0% minimum required).
+Checking that 20 nodes are alive
+[Test isAlive] for 3.135.81.131:2040
+[Test isAlive] for 3.135.81.131:2060
+[Test isAlive] for 3.135.81.131:2002
+[Test isAlive] for 3.135.81.131:2036
+[Test isAlive] for 3.135.81.131:2028
+[Test isAlive] for 3.135.81.131:2046
+[Test isAlive] for 3.135.81.131:2078
+[Test isAlive] for 3.135.81.131:2062
+[Test isAlive] for 3.135.81.131:2020
+[Test isAlive] for 3.135.81.131:2008
+[Test isAlive] for 3.135.81.131:2072
+[Test isAlive] for 3.135.81.131:2014
+[Test isAlive] for 3.135.81.131:2006
+[Test isAlive] for 3.135.81.131:2048
+[Test isAlive] for 3.135.81.131:2064
+[Test isAlive] for 3.135.81.131:2032
+[Test isAlive] for 3.135.81.131:2074
+[Test isAlive] for 3.135.81.131:2012
+[Test isAlive] for 3.135.81.131:2068
+[Test isAlive] for 3.135.81.131:2044
+[ ... Completed in 0.002 seconds ]
+TEST_PASSED
+[ ... TEST Completed in 0.495 seconds ]
+
+[Info] Preparing for Stage 2b of the Suspend/Resume Test
+[Info] To resume 28 node(s) in Stage 2b.
+[Info] Will resume 3.135.81.131:2026
+[Info] Will resume 3.135.81.131:2034
+[Info] Will resume 3.135.81.131:2058
+[Info] Will resume 3.135.81.131:2070
+[Info] Will resume 3.135.81.131:2066
+[Info] Will resume 3.135.81.131:2018
+[Info] Will resume 3.135.81.131:2010
+[Info] Will resume 3.135.81.131:2022
+[Info] Will resume 3.135.81.131:2056
+[Info] Will resume 3.135.81.131:2024
+[Info] Will resume 3.135.81.131:2030
+[Info] Will resume 3.135.81.131:2016
+[Info] Will resume 3.135.81.131:2076
+[Info] Will resume 3.135.81.131:2004
+[Info] Will resume 3.135.81.131:2042
+[Info] Will resume 3.135.81.131:2000
+[Info] Will resume 3.135.81.131:2054
+[Info] Will resume 3.135.81.131:2050
+[Info] Will resume 3.135.81.131:2052
+[Info] Will resume 3.135.81.131:2038
+Waiting 10 seconds before resuming nodes
+[Info] Resuming 20 servers.
+Server 3.135.81.131:2026 resumed
+Server 3.135.81.131:2058 resumed
+Server 3.135.81.131:2066 resumed
+Server 3.135.81.131:2034 resumed
+Server 3.135.81.131:2010 resumed
+Server 3.135.81.131:2018 resumed
+Server 3.135.81.131:2056 resumed
+Server 3.135.81.131:2016 resumed
+Server 3.135.81.131:2070 resumed
+Server 3.135.81.131:2076 resumed
+Server 3.135.81.131:2004 resumed
+Server 3.135.81.131:2030 resumed
+Server 3.135.81.131:2054 resumed
+Server 3.135.81.131:2050 resumed
+Server 3.135.81.131:2022 resumed
+Server 3.135.81.131:2052 resumed
+Server 3.135.81.131:2042 resumed
+Server 3.135.81.131:2000 resumed
+Server 3.135.81.131:2038 resumed
+Server 3.135.81.131:2024 resumed
+1000
+1002
+1005
+1008
+1009
+1011
+1012
+1013
+1015
+1017
+1019
+1021
+1025
+1026
+1027
+1028
+1029
+1033
+1035
+1038
+[ ... Completed in 16.558 seconds ]
+Waiting 60 seconds after resuming nodes
+[Info] Stage 2b Scenario: Alive Nodes: 40. Dead Nodes: 0
+
+
+[ TEST Suspend Verify v2; Stage 2b; Key Recovery; ]
+Checking that 0 nodes are suspended
+[ ... Completed in 0.0 seconds ]
+Checking that 40 nodes are alive
+[Test isAlive] for 3.135.81.131:2064
+[Test isAlive] for 3.135.81.131:2044
+[Test isAlive] for 3.135.81.131:2036
+[Test isAlive] for 3.135.81.131:2078
+[Test isAlive] for 3.135.81.131:2028
+[Test isAlive] for 3.135.81.131:2020
+[Test isAlive] for 3.135.81.131:2068
+[Test isAlive] for 3.135.81.131:2074
+[Test isAlive] for 3.135.81.131:2008
+[Test isAlive] for 3.135.81.131:2014
+[Test isAlive] for 3.135.81.131:2046
+[Test isAlive] for 3.135.81.131:2040
+[Test isAlive] for 3.135.81.131:2048
+[Test isAlive] for 3.135.81.131:2072
+[Test isAlive] for 3.135.81.131:2032
+[Test isAlive] for 3.135.81.131:2002
+[Test isAlive] for 3.135.81.131:2062
+[Test isAlive] for 3.135.81.131:2006
+[Test isAlive] for 3.135.81.131:2012
+[Test isAlive] for 3.135.81.131:2060
+[Test isAlive] for 3.135.81.131:2026
+[Test isAlive] for 3.135.81.131:2034
+[Test isAlive] for 3.135.81.131:2058
+[Test isAlive] for 3.135.81.131:2070
+[Test isAlive] for 3.135.81.131:2066
+[Test isAlive] for 3.135.81.131:2018
+[Test isAlive] for 3.135.81.131:2010
+[Test isAlive] for 3.135.81.131:2022
+[Test isAlive] for 3.135.81.131:2056
+[Test isAlive] for 3.135.81.131:2024
+[Test isAlive] for 3.135.81.131:2030
+[Test isAlive] for 3.135.81.131:2016
+[Test isAlive] for 3.135.81.131:2076
+[Test isAlive] for 3.135.81.131:2004
+[Test isAlive] for 3.135.81.131:2042
+[Test isAlive] for 3.135.81.131:2000
+[Test isAlive] for 3.135.81.131:2054
+[Test isAlive] for 3.135.81.131:2050
+[Test isAlive] for 3.135.81.131:2052
+[Test isAlive] for 3.135.81.131:2038
+[ ... Completed in 0.006 seconds ]
+Sending GetMembershipCount to all servers... 
+[Info] Server 3.135.81.131:2064 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2036 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2020 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2078 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2074 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2028 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2046 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2072 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2014 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2048 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2008 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2032 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2062 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2026 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2034 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2058 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2070 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2010 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2066 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2022 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2018 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2044 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2030 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2068 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2024 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2076 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2056 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2004 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2016 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2002 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2006 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2040 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2042 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2060 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2000 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2054 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2050 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2052 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2012 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2038 replied with membership count = 40 (expected count = 40)
+[ ... Completed in 0.005 seconds ]
+[Ok] All servers returned the expected membership count (40)
+Attempting retrieval of keys... 
+Issuing GETs ... 
+[DONE in 0.409s]
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; Of 40000 stored keys: 38292 SUCCESS, 0 TIMEOUT, 1708 KEY-NOT-FOUND, 0 ERROR-UID, 0 ERROR-INVALID-GET (value or version), 0 ERROR-OTHER.
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; Expected Key Loss: 0.0%. Actual Key Loss: 4.27%
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; Total Value Size (MiB): 18.265222549438477 MiB.
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; SUCCESS Response Count: 38292.0.
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; % SUCCESS: 95.73%.
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; % FAILED (Not SUCCESS): 4.27%.
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; % TIMEOUT: 0.0%.
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; % KEY-NOT-FOUND: 4.27%.
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; % ERROR-UID: 0.0%.
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; % ERROR-INVALID-GET (value or version): 0.0%.
+[Info] Suspend Verify v2; Stage 2b; Key Recovery; % ERROR-OTHER: 0.0%.
+[Info] Minimum GET SUCCESS % Ok: 95.73% Success.(100.0% SUCCESS expected, 50.0% minimum required).
+TEST_PASSED
+[ ... TEST Completed in 0.42 seconds ]
+
+[Info] Preparing for Stage 2c of the Suspend/Resume Test
+[Info] Stage 2c Scenario: Alive Nodes: 40. Dead Nodes: 0
+
+
+[ TEST Suspend Verify v2; Stage 2c; Key Recovery; ]
+Checking that 0 nodes are suspended
+[ ... Completed in 0.0 seconds ]
+Checking that 40 nodes are alive
+[Test isAlive] for 3.135.81.131:2064
+[Test isAlive] for 3.135.81.131:2044
+[Test isAlive] for 3.135.81.131:2036
+[Test isAlive] for 3.135.81.131:2028
+[Test isAlive] for 3.135.81.131:2078
+[Test isAlive] for 3.135.81.131:2020
+[Test isAlive] for 3.135.81.131:2068
+[Test isAlive] for 3.135.81.131:2008
+[Test isAlive] for 3.135.81.131:2074
+[Test isAlive] for 3.135.81.131:2014
+[Test isAlive] for 3.135.81.131:2046
+[Test isAlive] for 3.135.81.131:2040
+[Test isAlive] for 3.135.81.131:2048
+[Test isAlive] for 3.135.81.131:2072
+[Test isAlive] for 3.135.81.131:2032
+[Test isAlive] for 3.135.81.131:2002
+[Test isAlive] for 3.135.81.131:2062
+[Test isAlive] for 3.135.81.131:2006
+[Test isAlive] for 3.135.81.131:2012
+[Test isAlive] for 3.135.81.131:2060
+[Test isAlive] for 3.135.81.131:2026
+[Test isAlive] for 3.135.81.131:2034
+[Test isAlive] for 3.135.81.131:2058
+[Test isAlive] for 3.135.81.131:2070
+[Test isAlive] for 3.135.81.131:2066
+[Test isAlive] for 3.135.81.131:2018
+[Test isAlive] for 3.135.81.131:2010
+[Test isAlive] for 3.135.81.131:2022
+[Test isAlive] for 3.135.81.131:2056
+[Test isAlive] for 3.135.81.131:2024
+[Test isAlive] for 3.135.81.131:2030
+[Test isAlive] for 3.135.81.131:2016
+[Test isAlive] for 3.135.81.131:2076
+[Test isAlive] for 3.135.81.131:2004
+[Test isAlive] for 3.135.81.131:2042
+[Test isAlive] for 3.135.81.131:2000
+[Test isAlive] for 3.135.81.131:2054
+[Test isAlive] for 3.135.81.131:2050
+[Test isAlive] for 3.135.81.131:2052
+[Test isAlive] for 3.135.81.131:2038
+[ ... Completed in 0.005 seconds ]
+Sending GetMembershipCount to all servers... 
+[Info] Server 3.135.81.131:2064 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2044 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2036 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2028 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2078 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2068 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2020 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2008 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2074 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2014 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2046 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2040 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2048 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2072 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2032 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2062 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2002 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2006 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2012 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2026 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2060 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2034 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2058 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2070 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2066 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2018 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2010 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2022 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2056 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2024 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2030 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2016 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2076 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2004 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2042 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2000 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2054 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2050 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2052 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2038 replied with membership count = 40 (expected count = 40)
+[ ... Completed in 0.004 seconds ]
+[Ok] All servers returned the expected membership count (40)
+Attempting retrieval of keys... 
+Issuing GETs ... 
+[DONE in 0.196s]
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; Of 20000 stored keys: 19350 SUCCESS, 0 TIMEOUT, 650 KEY-NOT-FOUND, 0 ERROR-UID, 0 ERROR-INVALID-GET (value or version), 0 ERROR-OTHER.
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; Expected Key Loss: 0.0%. Actual Key Loss: 3.25%
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; Total Value Size (MiB): 9.257792472839355 MiB.
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; SUCCESS Response Count: 19350.0.
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; % SUCCESS: 96.75%.
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; % FAILED (Not SUCCESS): 3.25%.
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; % TIMEOUT: 0.0%.
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; % KEY-NOT-FOUND: 3.25%.
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; % ERROR-UID: 0.0%.
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; % ERROR-INVALID-GET (value or version): 0.0%.
+[Info] Suspend Verify v2; Stage 2c; Key Recovery; % ERROR-OTHER: 0.0%.
+[Info] Minimum GET SUCCESS % Ok: 96.75% Success.(100.0% SUCCESS expected, 50.0% minimum required).
+TEST_PASSED
+[ ... TEST Completed in 0.206 seconds ]
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.08 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+Sending GetMembershipCount to all servers... 
+[Info] Server 3.135.81.131:2064 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2036 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2044 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2028 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2078 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2068 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2020 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2008 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2074 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2014 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2046 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2040 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2048 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2072 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2032 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2062 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2002 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2006 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2012 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2034 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2026 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2058 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2070 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2060 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2066 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2010 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2018 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2022 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2024 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2030 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2016 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2056 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2076 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2004 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2042 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2000 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2054 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2050 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2052 replied with membership count = 40 (expected count = 40)
+[Info] Server 3.135.81.131:2038 replied with membership count = 40 (expected count = 40)
+[ ... Completed in 0.006 seconds ]
+[Ok] All servers returned the expected membership count (40)
+[ ... TEST Completed in 0.007 seconds ]
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.019 seconds ]
+[OK]
+Waiting for 5 seconds for the cache to be cleared!
+
+[ TEST Random Front-End Basic (PUT -> GET -> REM -> REM -> GET). Value Length = 8 Bytes ]
+TEST_PASSED
+
+[ TEST Random Front-End Basic (PUT -> GET -> REM -> REM -> GET). Value Length = 32 Bytes ]
+TEST_PASSED
+
+[ TEST Random Front-End Basic (PUT -> GET -> REM -> REM -> GET). Value Length = 512 Bytes ]
+TEST_PASSED
+
+[ TEST Random Front-End Basic (PUT -> GET -> REM -> REM -> GET). Value Length = 1024 Bytes ]
+TEST_PASSED
+[ ... TEST Completed in 0.018 seconds ]
+
+[ ... Completed in 0.0 seconds ]
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.019 seconds ]
+[OK]
+Results Summary:
+Client Local Hostname : ip-172-31-27-81
+Client Local IP : ip-172-31-27-81/172.31.27.81
+Concurrent Store/Load v2; Stage 0; : 2.0
+Concurrent Store/Load v2; Stage 0; GET Phase; % ERROR-INVALID-GET (value or version) : 0.0
+Concurrent Store/Load v2; Stage 0; GET Phase; % ERROR-OTHER : 0.0
+Concurrent Store/Load v2; Stage 0; GET Phase; % ERROR-UID : 0.0
+Concurrent Store/Load v2; Stage 0; GET Phase; % FAILED (Not SUCCESS) : 0.0
+Concurrent Store/Load v2; Stage 0; GET Phase; % KEY-NOT-FOUND : 0.0
+Concurrent Store/Load v2; Stage 0; GET Phase; % SUCCESS : 100.0
+Concurrent Store/Load v2; Stage 0; GET Phase; % TIMEOUT : 0.0
+Concurrent Store/Load v2; Stage 0; GET Phase; SUCCESS Response Count : 40000.0
+Concurrent Store/Load v2; Stage 0; GET Phase; Total Value Size (MiB) : 19.095609664916992
+Concurrent Store/Load v2; Stage 0; PUT Phase; % ERROR-INVALID-GET (value or version) : 0.0
+Concurrent Store/Load v2; Stage 0; PUT Phase; % ERROR-OTHER : 0.0
+Concurrent Store/Load v2; Stage 0; PUT Phase; % ERROR-UID : 0.0
+Concurrent Store/Load v2; Stage 0; PUT Phase; % FAILED (Not SUCCESS) : 0.0
+Concurrent Store/Load v2; Stage 0; PUT Phase; % KEY-NOT-FOUND : 0.0
+Concurrent Store/Load v2; Stage 0; PUT Phase; % SUCCESS : 100.0
+Concurrent Store/Load v2; Stage 0; PUT Phase; % TIMEOUT : 0.0
+Concurrent Store/Load v2; Stage 0; PUT Phase; SUCCESS Response Count : 40000.0
+Concurrent Store/Load v2; Stage 0; PUT Phase; Total Value Size (MiB) : 19.095609664916992
+Concurrent Store/Load v2; Stage 2a; : 2.0
+Concurrent Store/Load v2; Stage 2a; GET Phase; % ERROR-INVALID-GET (value or version) : 0.0
+Concurrent Store/Load v2; Stage 2a; GET Phase; % ERROR-OTHER : 0.0
+Concurrent Store/Load v2; Stage 2a; GET Phase; % ERROR-UID : 0.0
+Concurrent Store/Load v2; Stage 2a; GET Phase; % FAILED (Not SUCCESS) : 0.0
+Concurrent Store/Load v2; Stage 2a; GET Phase; % KEY-NOT-FOUND : 0.0
+Concurrent Store/Load v2; Stage 2a; GET Phase; % SUCCESS : 100.0
+Concurrent Store/Load v2; Stage 2a; GET Phase; % TIMEOUT : 0.0
+Concurrent Store/Load v2; Stage 2a; GET Phase; SUCCESS Response Count : 20000.0
+Concurrent Store/Load v2; Stage 2a; GET Phase; Total Value Size (MiB) : 9.53866195678711
+Concurrent Store/Load v2; Stage 2a; PUT Phase; % ERROR-INVALID-GET (value or version) : 0.0
+Concurrent Store/Load v2; Stage 2a; PUT Phase; % ERROR-OTHER : 0.0
+Concurrent Store/Load v2; Stage 2a; PUT Phase; % ERROR-UID : 0.0
+Concurrent Store/Load v2; Stage 2a; PUT Phase; % FAILED (Not SUCCESS) : 0.0
+Concurrent Store/Load v2; Stage 2a; PUT Phase; % KEY-NOT-FOUND : 0.0
+Concurrent Store/Load v2; Stage 2a; PUT Phase; % SUCCESS : 100.0
+Concurrent Store/Load v2; Stage 2a; PUT Phase; % TIMEOUT : 0.0
+Concurrent Store/Load v2; Stage 2a; PUT Phase; SUCCESS Response Count : 20000.0
+Concurrent Store/Load v2; Stage 2a; PUT Phase; Total Value Size (MiB) : 9.53866195678711
+Server Count : 40
+Server List : 3.135.81.131_2000_3.135.81.131_2002_3.135.81.131_2004_3.135.81.131_2006_3.135.81.131_2008_3.135.81.131_2010_3.135.81.131_2012_3.135.81.131_2014_3.135.81.131_2016_3.135.81.131_2018_3.135.81.131_2020_3.135.81.131_2022_3.135.81.131_2024_3.135.81.131_2026_3.135.81.131_2028_3.135.81.131_2030_3.135.81.131_2032_3.135.81.131_2034_3.135.81.131_2036_3.135.81.131_2038_3.135.81.131_2040_3.135.81.131_2042_3.135.81.131_2044_3.135.81.131_2046_3.135.81.131_2048_3.135.81.131_2050_3.135.81.131_2052_3.135.81.131_2054_3.135.81.131_2056_3.135.81.131_2058_3.135.81.131_2060_3.135.81.131_2062_3.135.81.131_2064_3.135.81.131_2066_3.135.81.131_2068_3.135.81.131_2070_3.135.81.131_2072_3.135.81.131_2074_3.135.81.131_2076_3.135.81.131_2078_
+Single Front Node (At-Most-Once) Policy : 2.0
+Single Front Node At-Most-Once Policy Empty REMs : 2.0
+Single Front Node At-Most-Once Policy Error Return Code : 2.0
+Single Front Node At-Most-Once Policy Full Test : 2.0
+Single Front Node Basic PUT GET  : 2.0
+Single Front Node Double PUT with version : 2.0
+Single Front Node Double Remove : 2.0
+Single Front Node Invalid Command : 2.0
+Single Front Node Invalid Key Test : 2.0
+Single Front Node Invalid Value Test : 2.0
+Single Front Node Multi-Client Crash : 2.0
+Single Front Node Remove Operation : 2.0
+Stage 0 Random Front-End Basic : 2.0
+Stage 1 Suspend Node Count : 28
+Stage 2 Distributed Shutdown Honoured : 2.0
+Stage 2 Random Front-End Basic : 2.0
+Stage 2 Resumed Node Count : 28
+Suspend Verify v2; Stage 1; Key Recovery; : 2.0
+Suspend Verify v2; Stage 1; Key Recovery; % ERROR-INVALID-GET (value or version) : 0.0
+Suspend Verify v2; Stage 1; Key Recovery; % ERROR-OTHER : 0.0
+Suspend Verify v2; Stage 1; Key Recovery; % ERROR-UID : 0.0
+Suspend Verify v2; Stage 1; Key Recovery; % FAILED (Not SUCCESS) : 2.065
+Suspend Verify v2; Stage 1; Key Recovery; % KEY-NOT-FOUND : 2.065
+Suspend Verify v2; Stage 1; Key Recovery; % SUCCESS : 97.935
+Suspend Verify v2; Stage 1; Key Recovery; % TIMEOUT : 0.0
+Suspend Verify v2; Stage 1; Key Recovery; SUCCESS Response Count : 39174.0
+Suspend Verify v2; Stage 1; Key Recovery; Total Value Size (MiB) : 18.707772254943848
+Suspend Verify v2; Stage 2b; Key Recovery; : 2.0
+Suspend Verify v2; Stage 2b; Key Recovery; % ERROR-INVALID-GET (value or version) : 0.0
+Suspend Verify v2; Stage 2b; Key Recovery; % ERROR-OTHER : 0.0
+Suspend Verify v2; Stage 2b; Key Recovery; % ERROR-UID : 0.0
+Suspend Verify v2; Stage 2b; Key Recovery; % FAILED (Not SUCCESS) : 4.27
+Suspend Verify v2; Stage 2b; Key Recovery; % KEY-NOT-FOUND : 4.27
+Suspend Verify v2; Stage 2b; Key Recovery; % SUCCESS : 95.73
+Suspend Verify v2; Stage 2b; Key Recovery; % TIMEOUT : 0.0
+Suspend Verify v2; Stage 2b; Key Recovery; SUCCESS Response Count : 38292.0
+Suspend Verify v2; Stage 2b; Key Recovery; Total Value Size (MiB) : 18.265222549438477
+Suspend Verify v2; Stage 2c; Key Recovery; : 2.0
+Suspend Verify v2; Stage 2c; Key Recovery; % ERROR-INVALID-GET (value or version) : 0.0
+Suspend Verify v2; Stage 2c; Key Recovery; % ERROR-OTHER : 0.0
+Suspend Verify v2; Stage 2c; Key Recovery; % ERROR-UID : 0.0
+Suspend Verify v2; Stage 2c; Key Recovery; % FAILED (Not SUCCESS) : 3.25
+Suspend Verify v2; Stage 2c; Key Recovery; % KEY-NOT-FOUND : 3.25
+Suspend Verify v2; Stage 2c; Key Recovery; % SUCCESS : 96.75
+Suspend Verify v2; Stage 2c; Key Recovery; % TIMEOUT : 0.0
+Suspend Verify v2; Stage 2c; Key Recovery; SUCCESS Response Count : 19350.0
+Suspend Verify v2; Stage 2c; Key Recovery; Total Value Size (MiB) : 9.257792472839355
+Test Start Time : Tue Apr 09 04:41:10 UTC 2024
+Result Verification Code : A7F232D2A5E9440E7B462E0FB2CC681F
+[Info] Completed Node Suspend/Rejoin Tests.
+Testing completed in 480.888s

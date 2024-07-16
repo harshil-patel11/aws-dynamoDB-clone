@@ -1,0 +1,170 @@
+Server Address: 3.135.81.131:2016
+Node 21 is dead!!!
+Maintaining Replicas for: Node 21 curTime: 1712637792075
+updateReplicaStateNodeLeave: Node 21 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 8 Replica Length: 3
+Node 0 is dead!!!
+Maintaining Replicas for: Node 0 curTime: 1712637792892
+updateReplicaStateNodeLeave: Node 0 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 8 Replica Length: 3
+Node 5 is dead!!!
+Maintaining Replicas for: Node 5 curTime: 1712637793692
+updateReplicaStateNodeLeave: Node 5 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 8 Replica Length: 3
+Node 15 is dead!!!
+Maintaining Replicas for: Node 15 curTime: 1712637793692
+updateReplicaStateNodeLeave: Node 15 left
+updateReplicaStateNodeLeave: printing owned nodes
+updateReplicaStateNodeLeave: Owned Node: 8 Replica Length: 3
+Node identifies itself as a joining node!
+Node 2 is dead!!!
+Cannot run MaintainReplicas. Node 8 came back alive. curTime: 1712638070899
+Node 27 is dead!!!
+Cannot run MaintainReplicas. Node 8 came back alive. curTime: 1712638070900
+Node 32 is dead!!!
+Cannot run MaintainReplicas. Node 8 came back alive. curTime: 1712638070900
+Node 33 is dead!!!
+Cannot run MaintainReplicas. Node 8 came back alive. curTime: 1712638070900
+Node 5 joined!
+Node 33 joined!
+Node 32 joined!
+Node 2 joined!
+Node 15 joined!
+Node 27 joined!
+Node 21 joined!
+Node 0 joined!
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND
+KEY NOT FOUND

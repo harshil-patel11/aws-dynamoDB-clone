@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "ca.NetSysLab.ProtocolBuffers";
+option java_outer_classname = "ForwardedMessage";
+
+message FwdMsg {
+    bytes clientMessageId = 1;
+    bytes clientRequest = 2;
+    fixed32 clientPort = 3;
+    string clientIP = 4;
+}
